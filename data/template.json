@@ -1,0 +1,148 @@
+{
+  "note": "새 현장의 기본 공정입니다. startOffset은 착공일부터 며칠 뒤 시작인지, durationDays는 달력 일수입니다. 관리 페이지에서 현장을 만들면 이 값은 예정일로 바뀌어 저장되고, 고객 화면에는 나오지 않습니다.",
+  "processes": [
+    {
+      "id": "demolition",
+      "name": "철거",
+      "startOffset": 0,
+      "durationDays": 4,
+      "checklist": [
+        { "id": "demo-scope", "label": "철거 범위 고객 확인" },
+        { "id": "demo-protect", "label": "엘리베이터·공용부 보양" },
+        { "id": "demo-shutoff", "label": "수도·전기 차단" },
+        { "id": "demo-waste", "label": "건설 폐기물 반출" },
+        { "id": "demo-structure", "label": "철거 후 구조체 상태 확인" }
+      ]
+    },
+    {
+      "id": "plumbing",
+      "name": "설비/배관",
+      "startOffset": 5,
+      "durationDays": 8,
+      "checklist": [
+        { "id": "plumb-supply", "label": "급수·온수 배관 위치" },
+        { "id": "plumb-slope", "label": "오배수 구배" },
+        { "id": "plumb-leak", "label": "배관 누수 테스트" },
+        { "id": "plumb-heat", "label": "난방 배관 압력 테스트" },
+        { "id": "plumb-valve", "label": "밸브 위치 고객 안내" }
+      ]
+    },
+    {
+      "id": "electric",
+      "name": "전기",
+      "startOffset": 6,
+      "durationDays": 9,
+      "checklist": [
+        { "id": "elec-points", "label": "콘센트·스위치 위치 확정" },
+        { "id": "elec-panel", "label": "분전반·차단기 용량" },
+        { "id": "elec-ground", "label": "접지 시공" },
+        { "id": "elec-light", "label": "조명 스위치 회로" },
+        { "id": "elec-data", "label": "통신·TV 배선" }
+      ]
+    },
+    {
+      "id": "carpentry",
+      "name": "목공",
+      "startOffset": 15,
+      "durationDays": 12,
+      "checklist": [
+        { "id": "wood-door", "label": "문틀 수평·수직" },
+        { "id": "wood-ceiling", "label": "천장 수평" },
+        { "id": "wood-insulation", "label": "단열·석고 마감" },
+        { "id": "wood-frame", "label": "가구 하지 수평" },
+        { "id": "wood-trim", "label": "몰딩·걸레받이 이음" }
+      ]
+    },
+    {
+      "id": "tile",
+      "name": "타일",
+      "startOffset": 20,
+      "durationDays": 9,
+      "checklist": [
+        { "id": "tile-waterproof", "label": "방수 (도막·양생)" },
+        { "id": "tile-slope", "label": "바닥 구배" },
+        { "id": "tile-grout", "label": "줄눈" },
+        { "id": "tile-hollow", "label": "들뜸·파손" },
+        { "id": "tile-silicone", "label": "코너 실리콘" }
+      ]
+    },
+    {
+      "id": "paint",
+      "name": "도장",
+      "startOffset": 29,
+      "durationDays": 6,
+      "checklist": [
+        { "id": "paint-surface", "label": "퍼티·샌딩" },
+        { "id": "paint-coats", "label": "프라이머·도장 횟수" },
+        { "id": "paint-color", "label": "색상 고객 확인" },
+        { "id": "paint-defects", "label": "오염·붓자국" },
+        { "id": "paint-dry", "label": "건조 상태" }
+      ]
+    },
+    {
+      "id": "wallpaper",
+      "name": "도배",
+      "startOffset": 34,
+      "durationDays": 5,
+      "checklist": [
+        { "id": "paper-base", "label": "바탕면 정리" },
+        { "id": "paper-seam", "label": "이음매" },
+        { "id": "paper-corner", "label": "모서리·코너" },
+        { "id": "paper-outlet", "label": "스위치 박스 마감" },
+        { "id": "paper-bond", "label": "접착·들뜸" }
+      ]
+    },
+    {
+      "id": "floor",
+      "name": "바닥",
+      "startOffset": 36,
+      "durationDays": 5,
+      "checklist": [
+        { "id": "floor-level", "label": "바탕 평활" },
+        { "id": "floor-sound", "label": "들뜸·삐걱임" },
+        { "id": "floor-threshold", "label": "문턱·단차" },
+        { "id": "floor-scratch", "label": "표면 스크래치" },
+        { "id": "floor-joint", "label": "이음 간격" }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "가구/주방",
+      "startOffset": 41,
+      "durationDays": 7,
+      "checklist": [
+        { "id": "kit-level", "label": "상·하부장 수평" },
+        { "id": "kit-drain", "label": "싱크볼 배수" },
+        { "id": "kit-silicon", "label": "상판 실리콘" },
+        { "id": "kit-door", "label": "도어 개폐·단차" },
+        { "id": "kit-hardware", "label": "레일·경첩" }
+      ]
+    },
+    {
+      "id": "lighting",
+      "name": "조명/마감",
+      "startOffset": 47,
+      "durationDays": 5,
+      "checklist": [
+        { "id": "light-on", "label": "등기구 점등" },
+        { "id": "light-switch", "label": "스위치 연동" },
+        { "id": "light-caulk", "label": "실리콘·코킹 마감" },
+        { "id": "light-accessory", "label": "악세서리 설치" },
+        { "id": "light-punch", "label": "하자 리스트 작성" }
+      ]
+    },
+    {
+      "id": "cleaning",
+      "name": "입주청소",
+      "startOffset": 51,
+      "durationDays": 2,
+      "checklist": [
+        { "id": "clean-dust", "label": "목공·석고 분진 제거" },
+        { "id": "clean-glass", "label": "창호·유리" },
+        { "id": "clean-wet", "label": "주방·욕실" },
+        { "id": "clean-floor", "label": "바닥 마감 청소" },
+        { "id": "clean-handover", "label": "인수인계 점검" }
+      ]
+    }
+  ]
+}

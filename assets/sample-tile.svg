@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="샘플 욕실 바닥 구배 도면">
+  <rect width="800" height="600" fill="#f4efe8"/>
+  <rect x="70" y="54" width="660" height="430" fill="#fffdfb" stroke="#1f1a17" stroke-width="4"/>
+  <g stroke="#e4d8cc" stroke-width="2">
+    <path d="M70 140h660M70 226h660M70 312h660M70 398h660M206 54v430M342 54v430M478 54v430M614 54v430"/>
+  </g>
+  <circle cx="400" cy="270" r="28" fill="#1f1a17"/>
+  <circle cx="400" cy="270" r="12" fill="#f4efe8"/>
+  <path d="M250 168c70 28 110 62 150 102" fill="none" stroke="#9a4d2e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M392 250l28 8-22 20" fill="#9a4d2e"/>
+  <text x="400" y="528" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#1f1a17">샘플 · 욕실 바닥 구배</text>
+  <text x="400" y="566" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#6f675f">실제 현장 사진이 아닙니다</text>
+</svg>
