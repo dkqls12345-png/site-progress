@@ -1,0 +1,214 @@
+{
+  "id": "k7m2q9xp4nwb",
+  "sample": true,
+  "name": "잠실 32평 아파트 리모델링 (샘플)",
+  "customerName": "홍길동 (샘플)",
+  "area": "서울 송파구",
+  "startDate": "2026-10-20",
+  "expectedEndDate": "2026-12-12",
+  "manager": {
+    "name": "아빈",
+    "contact": "샘플 데이터 — 실제 연락처 없음"
+  },
+  "updatedAt": "2026-11-17T08:40:00+09:00",
+  "processes": [
+    {
+      "id": "demolition",
+      "name": "철거",
+      "status": "완료",
+      "plannedStart": "2026-10-20",
+      "plannedEnd": "2026-10-23",
+      "actualStart": "2026-10-20",
+      "actualEnd": "2026-10-23",
+      "notes": "거실 확장부를 포함해 철거를 마쳤습니다. 폐기물은 반출했고, 엘리베이터 보양은 공사 끝까지 유지합니다.",
+      "photos": [],
+      "checklist": [
+        { "id": "demo-scope", "label": "철거 범위 고객 확인", "checked": true, "checkedAt": "2026-10-20", "memo": "확장 구간 포함으로 확정" },
+        { "id": "demo-protect", "label": "엘리베이터·공용부 보양", "checked": true, "checkedAt": "2026-10-20", "memo": "" },
+        { "id": "demo-shutoff", "label": "수도·전기 차단", "checked": true, "checkedAt": "2026-10-20", "memo": "" },
+        { "id": "demo-waste", "label": "건설 폐기물 반출", "checked": true, "checkedAt": "2026-10-23", "memo": "" },
+        { "id": "demo-structure", "label": "철거 후 구조체 상태 확인", "checked": true, "checkedAt": "2026-10-23", "memo": "눈에 띄는 균열 없음" }
+      ]
+    },
+    {
+      "id": "plumbing",
+      "name": "설비/배관",
+      "status": "완료",
+      "plannedStart": "2026-10-26",
+      "plannedEnd": "2026-11-03",
+      "actualStart": "2026-10-26",
+      "actualEnd": "2026-11-04",
+      "notes": "욕실 2곳 배관 이설과 싱크 위치 이동을 마쳤습니다. 수압은 이상 없었고, 난방 배관은 예정보다 하루 늦게 마감했습니다.",
+      "photos": [],
+      "checklist": [
+        { "id": "plumb-supply", "label": "급수·온수 배관 위치", "checked": true, "checkedAt": "2026-10-27", "memo": "" },
+        { "id": "plumb-slope", "label": "오배수 구배", "checked": true, "checkedAt": "2026-10-30", "memo": "" },
+        { "id": "plumb-leak", "label": "배관 누수 테스트", "checked": true, "checkedAt": "2026-11-02", "memo": "이상 없음" },
+        { "id": "plumb-heat", "label": "난방 배관 압력 테스트", "checked": true, "checkedAt": "2026-11-04", "memo": "" },
+        { "id": "plumb-valve", "label": "밸브 위치 고객 안내", "checked": true, "checkedAt": "2026-11-04", "memo": "싱크 하부 밸브 사진 공유" }
+      ]
+    },
+    {
+      "id": "electric",
+      "name": "전기",
+      "status": "완료",
+      "plannedStart": "2026-10-27",
+      "plannedEnd": "2026-11-05",
+      "actualStart": "2026-10-27",
+      "actualEnd": "2026-11-05",
+      "notes": "콘센트 추가, 식탁등 배선, 분전반 교체를 마쳤습니다.",
+      "photos": [],
+      "checklist": [
+        { "id": "elec-points", "label": "콘센트·스위치 위치 확정", "checked": true, "checkedAt": "2026-10-27", "memo": "거실 추가 4개소" },
+        { "id": "elec-panel", "label": "분전반·차단기 용량", "checked": true, "checkedAt": "2026-11-03", "memo": "" },
+        { "id": "elec-ground", "label": "접지 시공", "checked": true, "checkedAt": "2026-11-03", "memo": "" },
+        { "id": "elec-light", "label": "조명 스위치 회로", "checked": true, "checkedAt": "2026-11-05", "memo": "" },
+        { "id": "elec-data", "label": "통신·TV 배선", "checked": true, "checkedAt": "2026-11-05", "memo": "" }
+      ]
+    },
+    {
+      "id": "carpentry",
+      "name": "목공",
+      "status": "진행중",
+      "plannedStart": "2026-11-06",
+      "plannedEnd": "2026-11-18",
+      "actualStart": "2026-11-06",
+      "actualEnd": "",
+      "notes": "거실 우물천장 틀을 시공 중입니다. 도장 전에 샌딩 일정을 맞추고 있습니다.",
+      "photos": [],
+      "checklist": [
+        { "id": "wood-door", "label": "문틀 수평·수직", "checked": true, "checkedAt": "2026-11-07", "memo": "" },
+        { "id": "wood-ceiling", "label": "천장 수평", "checked": true, "checkedAt": "2026-11-10", "memo": "우물천장 단차 확인" },
+        { "id": "wood-insulation", "label": "단열·석고 마감", "checked": true, "checkedAt": "2026-11-12", "memo": "" },
+        { "id": "wood-frame", "label": "가구 하지 수평", "checked": false, "checkedAt": "", "memo": "주방 쪽 하지가 남아 있습니다" },
+        { "id": "wood-trim", "label": "몰딩·걸레받이 이음", "checked": false, "checkedAt": "", "memo": "" }
+      ]
+    },
+    {
+      "id": "tile",
+      "name": "타일",
+      "status": "진행중",
+      "plannedStart": "2026-11-11",
+      "plannedEnd": "2026-11-20",
+      "actualStart": "2026-11-13",
+      "actualEnd": "",
+      "notes": "안방 욕실 벽타일을 마쳤고 바닥 구배를 확인했습니다. 줄눈과 실리콘이 남아 있습니다. 아래 그림은 샘플 이미지입니다.",
+      "photos": ["assets/sample-tile.svg"],
+      "checklist": [
+        { "id": "tile-waterproof", "label": "방수 (도막·양생)", "checked": true, "checkedAt": "2026-11-12", "memo": "도막방수 2회, 양생 후 담수" },
+        { "id": "tile-slope", "label": "바닥 구배", "checked": true, "checkedAt": "2026-11-16", "memo": "배수구 쪽으로 구배 양호" },
+        { "id": "tile-grout", "label": "줄눈", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "tile-hollow", "label": "들뜸·파손", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "tile-silicone", "label": "코너 실리콘", "checked": false, "checkedAt": "", "memo": "" }
+      ]
+    },
+    {
+      "id": "paint",
+      "name": "도장",
+      "status": "대기",
+      "plannedStart": "2026-11-19",
+      "plannedEnd": "2026-11-25",
+      "actualStart": "",
+      "actualEnd": "",
+      "notes": "벽은 화이트, 몰딩은 같은 톤으로 색을 정해 두었습니다.",
+      "photos": [],
+      "checklist": [
+        { "id": "paint-surface", "label": "퍼티·샌딩", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "paint-coats", "label": "프라이머·도장 횟수", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "paint-color", "label": "색상 고객 확인", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "paint-defects", "label": "오염·붓자국", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "paint-dry", "label": "건조 상태", "checked": false, "checkedAt": "", "memo": "" }
+      ]
+    },
+    {
+      "id": "wallpaper",
+      "name": "도배",
+      "status": "대기",
+      "plannedStart": "2026-11-24",
+      "plannedEnd": "2026-11-28",
+      "actualStart": "",
+      "actualEnd": "",
+      "notes": "",
+      "photos": [],
+      "checklist": [
+        { "id": "paper-base", "label": "바탕면 정리", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "paper-seam", "label": "이음매", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "paper-corner", "label": "모서리·코너", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "paper-outlet", "label": "스위치 박스 마감", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "paper-bond", "label": "접착·들뜸", "checked": false, "checkedAt": "", "memo": "" }
+      ]
+    },
+    {
+      "id": "floor",
+      "name": "바닥",
+      "status": "대기",
+      "plannedStart": "2026-11-26",
+      "plannedEnd": "2026-12-01",
+      "actualStart": "",
+      "actualEnd": "",
+      "notes": "강마루 예정이며 색은 시공 전에 다시 확인합니다.",
+      "photos": [],
+      "checklist": [
+        { "id": "floor-level", "label": "바탕 평활", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "floor-sound", "label": "들뜸·삐걱임", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "floor-threshold", "label": "문턱·단차", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "floor-scratch", "label": "표면 스크래치", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "floor-joint", "label": "이음 간격", "checked": false, "checkedAt": "", "memo": "" }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "가구/주방",
+      "status": "대기",
+      "plannedStart": "2026-12-01",
+      "plannedEnd": "2026-12-08",
+      "actualStart": "",
+      "actualEnd": "",
+      "notes": "상부장 높이는 설치 때 맞춰 고정할 예정입니다.",
+      "photos": [],
+      "checklist": [
+        { "id": "kit-level", "label": "상·하부장 수평", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "kit-drain", "label": "싱크볼 배수", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "kit-silicon", "label": "상판 실리콘", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "kit-door", "label": "도어 개폐·단차", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "kit-hardware", "label": "레일·경첩", "checked": false, "checkedAt": "", "memo": "" }
+      ]
+    },
+    {
+      "id": "lighting",
+      "name": "조명/마감",
+      "status": "대기",
+      "plannedStart": "2026-12-07",
+      "plannedEnd": "2026-12-11",
+      "actualStart": "",
+      "actualEnd": "",
+      "notes": "",
+      "photos": [],
+      "checklist": [
+        { "id": "light-on", "label": "등기구 점등", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "light-switch", "label": "스위치 연동", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "light-caulk", "label": "실리콘·코킹 마감", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "light-accessory", "label": "악세서리 설치", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "light-punch", "label": "하자 리스트 작성", "checked": false, "checkedAt": "", "memo": "" }
+      ]
+    },
+    {
+      "id": "cleaning",
+      "name": "입주청소",
+      "status": "대기",
+      "plannedStart": "2026-12-11",
+      "plannedEnd": "2026-12-12",
+      "actualStart": "",
+      "actualEnd": "",
+      "notes": "준공 청소 후 인수인계할 예정입니다.",
+      "photos": [],
+      "checklist": [
+        { "id": "clean-dust", "label": "목공·석고 분진 제거", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "clean-glass", "label": "창호·유리", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "clean-wet", "label": "주방·욕실", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "clean-floor", "label": "바닥 마감 청소", "checked": false, "checkedAt": "", "memo": "" },
+        { "id": "clean-handover", "label": "인수인계 점검", "checked": false, "checkedAt": "", "memo": "" }
+      ]
+    }
+  ]
+}
