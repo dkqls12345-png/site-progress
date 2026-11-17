@@ -100,7 +100,7 @@
 
 `.github/workflows/pages.yml`이 `main`에 푸시될 때마다 GitHub Actions로 Pages에 배포합니다.
 
-Pages를 처음 연결할 때는 저장소 **Settings → Pages → Build and deployment → Source**를 **GitHub Actions**로 선택합니다. 이 저장소에 관리 권한이 있으면 API로도 같은 설정을 켤 수 있습니다.
+이 저장소는 처음 상태에서 Pages가 꺼져 있습니다. 배포가 시작되려면 저장소 **Settings → Pages → Build and deployment → Source**를 **GitHub Actions**로 한 번 선택해야 합니다. 관리 권한이 있는 계정으로는 API로도 같은 설정을 켤 수 있습니다. 저장소 쓰기 토큰만으로는 이 설정이 거부됩니다.
 
 ```bash
 gh api --method POST repos/dkqls12345-png/site-progress/pages --input - <<< '{"build_type":"workflow"}'
